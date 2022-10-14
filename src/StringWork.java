@@ -4,6 +4,8 @@ public class StringWork {
         String country2 = "usa";
         String fullName = " April Karki ";
 
+        System.out.println(country.length());
+
 
         System.out.println(fullName.replace(" ",""));
 
