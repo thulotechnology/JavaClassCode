@@ -1,14 +1,28 @@
-import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your age: ");
-        int age = Integer.parseInt(sc.nextLine());
-        System.out.println("Enter your name: ");
-        String name = sc.nextLine();
+       Emp emp = new Emp();
+       emp.firstName = "Milan";
+       emp.lastName = "Sharma";
+       emp.salary = 2500;
 
-        System.out.println("Name is "+name);
-        System.out.println("Age is "+age);
+       emp.display();
+
+       Person p = new Person();
+
+       Sts s = new Sts();
+       s.schoolName = "BMHSS School";
+       s.rollno = 25;
+       s.firstName = "Menuka";
+       s.lastName = "Pradhan";
+       s.display();
+
+
+
+
+
+
+
 
     }
 }
